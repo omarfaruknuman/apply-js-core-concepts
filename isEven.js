@@ -61,3 +61,18 @@ console.log('123 is an odd number: ' ,result);
 const cN = 832;
 const r = isOdd(cN);
 console.log('832 is an odd number: ',r);
+
+
+console.log('---::11 Practicing Is Even 11::---');
+function testEven (numaric){
+    const reminderE = numaric % 2;
+    if(reminderE === 0){
+        console.log('The number is Even');
+    }else{
+        console.log('The number is Odd');
+    }
+}
+
+testEven(543);
+testEven(542);
+testEven(545);
