@@ -22,6 +22,7 @@ function sumArray(nums){
         sum = sum + element;
         console.log(index, element, sum);
     }
+    return sum;
 }
 
 const mNums = [12, 65, 45, 78, 32, 45, 91];
